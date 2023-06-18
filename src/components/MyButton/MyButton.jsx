@@ -1,6 +1,5 @@
-import React from 'react';
 import PropTypes from 'prop-types';
-import './button.css';
+import './MyButton.css';
 
 /**
  * Primary UI component for user interaction
@@ -33,7 +32,7 @@ Button.propTypes = {
    */
   size: PropTypes.oneOf(['small', 'medium', 'large']),
   /**
-   * Button contents
+   * MyButton contents
    */
   label: PropTypes.string.isRequired,
   /**

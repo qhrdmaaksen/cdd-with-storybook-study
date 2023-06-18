@@ -1,8 +1,8 @@
-import { Button } from './Button';
+import { Button } from './MyButton';
 
 // More on how to set up stories at: https://storybook.js.org/docs/react/writing-stories/introduction
 export default {
-  title: 'Example/Button',
+  title: 'vitamin/Button',
   component: Button,
   tags: ['autodocs'],
   argTypes: {

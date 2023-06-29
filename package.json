@@ -12,9 +12,10 @@
     "build-storybook": "storybook build"
   },
   "dependencies": {
-    "@vanilla-extract/css": "^1.11.1",
+    "cdd-storybook": "^1.0.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "styled-components": "^6.0.1"
   },
   "devDependencies": {
     "@storybook/addon-essentials": "^7.0.20",

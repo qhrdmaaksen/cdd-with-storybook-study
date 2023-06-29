@@ -1,7 +1,8 @@
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import {Button, ButtonGroup} from "./components/index";
+import {ButtonGroup} from "./components/index";
+import {Button} from 'cdd-storybook'
 
 function App() {
     return (
@@ -16,8 +17,7 @@ function App() {
             </div>
             <h1>Vite + React</h1>
             <ButtonGroup>
-                <Button/>
-                <Button/>
+                <Button label="vitamin777test" color='#fff' backgroundColor='#000'/>
                 <p>
                     Edit <code>src/App.jsx</code> and save to test HMR
                 </p>
